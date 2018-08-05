@@ -1739,6 +1739,12 @@ div.col-sm-2.col-6 {
     .mt--18 {
         margin-left: -18rem;
     }
+    .mb-t{
+        margin-bottom: 0px;
+    }
+    .mt-t{
+        margin-top: 0px;
+    }
     .mTt-80 {
         margin-top: 85px;
     }
