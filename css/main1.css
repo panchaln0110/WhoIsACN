@@ -251,7 +251,6 @@ section {
 .mb-r i {
     margin-bottom: 0rem!important;
 }
-
 /*#FF7331*/
 
 .acn-font-color-2 {
@@ -1382,6 +1381,7 @@ div.col-sm-2.col-6 {
         height: 45px;
         width: 150px;
     }
+    
     .align-l {
         position: relative;
         left: 110px;
@@ -1455,6 +1455,10 @@ div.col-sm-2.col-6 {
     .change-font-16 {
         font-size: 16px;
     }
+    .mt-160 {
+        margin-top: 160px;
+    }
+
 
     #l-banner {
         height: 100%;
@@ -1604,8 +1608,8 @@ div.col-sm-2.col-6 {
         margin-top: 80px;
     }
     .l-banner-position-wACN {
-        margin-bottom: 200px;
-        margin-top: 200px;
+        margin-bottom: 175px;
+        margin-top: 175px;
     }
     .l-banner-position-GE {
         margin-bottom: 130px;
@@ -1739,14 +1743,17 @@ div.col-sm-2.col-6 {
     .mt--18 {
         margin-left: -18rem;
     }
-    .mb-t{
+    .mb-t {
         margin-bottom: 0px;
     }
-    .mt-t{
+    .mt-t {
         margin-top: 0px;
     }
     .mTt-80 {
         margin-top: 85px;
+    }
+    .mt-160 {
+        margin-top: 60px;
     }
     .major-bgwhite {
         background-color: white;
@@ -2180,7 +2187,7 @@ div.col-sm-2.col-6 {
     .dps-infographic {
         width: 30%;
     }
-    .pr-30{
+    .pr-30 {
         padding-right: 0px;
     }
     .mt-0 {
@@ -2237,7 +2244,7 @@ div.col-sm-2.col-6 {
     .mtt-40 {
         margin-top: 40px;
     }
-    .font-size-24t{
+    .font-size-24t {
         font-size: 24px;
     }
 
@@ -2268,9 +2275,7 @@ div.col-sm-2.col-6 {
     .mt-330 {
         margin-top: -330px;
     }
-    .mt-50 {
-        margin-top: 77px;
-    }
+    
     .change-width {
         width: 45%;
     }
