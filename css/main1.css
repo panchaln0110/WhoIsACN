@@ -7,6 +7,28 @@ H5: 14 Lato
 H6: 12 Lato
 */
 
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.acn-banner-height {
+    height: 350px;
+}
+
+.acn-banner-img {
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+
+.swiper-container {
+    /*    max-width: 1460px;*/
+    width: 100%;
+    /*    height: auto*/
+}
+
+
 .embed-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -25,6 +47,11 @@ H6: 12 Lato
     height: 100%;
 }
 
+.change-ws > a.dropdown-item {
+    white-space: inherit;
+    z-index: 1000;
+}
+
 article,
 aside,
 dialog,
@@ -35,7 +62,7 @@ header,
 hgroup,
 main,
 section {
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 }
 
 .w-60 {
@@ -52,6 +79,10 @@ section {
 
 .w-700 {
     width: 700px;
+}
+
+.w-320 {
+    width: 320px;
 }
 
 .wdt-60 {
@@ -124,6 +155,10 @@ section {
     margin: 0 auto;
 }
 
+.cardcap {
+    margin: 0 auto;
+}
+
 .fix {
     height: 110px;
     border: 1px solid trasparent;
@@ -135,6 +170,10 @@ section {
 
 .mt-40 {
     margin-top: 40px;
+}
+
+.mt-5 {
+    margin-top: 5px;
 }
 
 .mt-50 {
@@ -251,6 +290,7 @@ section {
 .mb-r i {
     margin-bottom: 0rem!important;
 }
+
 /*#FF7331*/
 
 .acn-font-color-2 {
@@ -539,6 +579,10 @@ h6 {
     width: 200px;
 }
 
+.acn-btn-size-ss {
+    width: 340px;
+}
+
 .acn-btn-size-SA {
     height: 40px;
     width: 340px;
@@ -666,6 +710,7 @@ button.btn.btn-secondary.dropdown-toggle{
 .section-cinfo {
     padding-top: 3rem;
 }
+
 
 /*Awards*/
 
@@ -830,8 +875,9 @@ button.btn.btn-secondary.dropdown-toggle{
 
 #l-banner-ss {
     height: 100%;
-    background: url(../images/successstory_mobile.png) center;
-    background-size: cover;
+    background-color: rgba(0, 40, 85, 0.3);
+    /*background: url(../images/Success_Story_Pics/Header/SS_Header_Mobile.png) center;
+    background-size: cover;*/
 }
 
 #l-banner-CL {
@@ -854,7 +900,7 @@ button.btn.btn-secondary.dropdown-toggle{
 
 #l-banner-wacntext {
     height: 100%;
-    background: url(../images/WhyACN_Mobile/bottom_banner_image.png) center;
+    background: url(../images/WhyACN_Mobile/event_mobile.png) center;
     background-size: cover;
 }
 
@@ -882,6 +928,10 @@ button.btn.btn-secondary.dropdown-toggle{
     background-size: cover;
 }
 
+.l-banner-homepage-position {
+    margin-top: 28px;
+}
+
 .l-banner-position {
     margin-top: 210px;
 }
@@ -900,6 +950,11 @@ button.btn.btn-secondary.dropdown-toggle{
     margin-bottom: 180px;
 }
 
+.l-banner-position-ss {
+    margin-top: 50px;
+    margin-bottom: 125px;
+}
+
 .l-banner-position-CL {
     margin-top: 115px;
     margin-bottom: 115px;
@@ -911,7 +966,7 @@ button.btn.btn-secondary.dropdown-toggle{
 }
 
 .l-banner-position-wacntext {
-    margin-top: 200px;
+    margin-top: 120px;
     margin-bottom: 30px;
 }
 
@@ -1196,7 +1251,7 @@ section#support ul > li {
 #co-founder {
     height: 100%;
     background: url(../images/Who_is_ACN_image/Who_Is_ACN_Desktop/co-founder-banner.png);
-    background-size: cover;
+    background-size: 100% 100%;
     color: white;
 }
 
@@ -1269,14 +1324,12 @@ a.foot-links {
     color: white;
 }
 
-
 div.col-sm-2.col-6 {
     padding: 0;
 }
 
 .heightwhy {
     height: 49px;
-    overflow: hidden;
 }
 
 .l-banner-btn-size {
@@ -1347,6 +1400,12 @@ div.col-sm-2.col-6 {
     .commit_wisacnpeople > div.container {
         max-width: 1481px;
     }
+    #Success_story > div.container {
+        max-width: 1460px;
+    }
+    #fourcolumns_M > div.container {
+        max-width: 730px;
+    }
 }
 
 
@@ -1365,11 +1424,21 @@ div.col-sm-2.col-6 {
 /*}*/
 
 @media only screen and (min-width: 992px) {
+
+    .acn-banner-img {
+        height: 350px;
+    }
     .tablet-pc-btn-float-left {
         float: left;
     }
-    .mtt-185 {
-        margin-top: -185px!important;
+    .mtt-130 {
+        margin-top: -130px!important;
+    }
+    .mbD-0 {
+        margin-bottom: 0px;
+    }
+    .mt-11 {
+        margin-top: 5px;
     }
     .wdt-60 {
         width: 20%;
@@ -1381,7 +1450,12 @@ div.col-sm-2.col-6 {
         height: 45px;
         width: 150px;
     }
-    
+    .bg-ss-color {
+        background-color: rgba(0, 40, 85, 0.3);
+    }
+    .heightPFK {
+        height: 400px;
+    }
     .align-l {
         position: relative;
         left: 110px;
@@ -1411,6 +1485,12 @@ div.col-sm-2.col-6 {
     }
     .d-hidem {
         display: none;
+    }
+    .d-Dnone1 {
+        display: none;
+    }
+    .text-rightss {
+        float: right;
     }
 
     /*    pc width home phone banner h1*/
@@ -1456,15 +1536,12 @@ div.col-sm-2.col-6 {
         font-size: 16px;
     }
     .mt-160 {
-        margin-top: 160px;
+        margin-top: 106px;
     }
-
-
     #l-banner {
         height: 100%;
         background: url(../images/HSIDesktop-img.png) center;
         background-size: cover;
-
     }
     #l-banner-enrg {
         height: 100%;
@@ -1539,8 +1616,9 @@ div.col-sm-2.col-6 {
     }
     #l-banner-ss {
         height: 100%;
-        background: url(../images/successstory_Desktop.png) center;
-        background-size: cover;
+        background-color: rgba(0, 40, 85, 0.3);
+        /*background: url(../images/Success_Story_Pics/Header/SS_Header_Desktop.png) center;
+        background-size: cover;*/
     }
     #l-banner-CL {
         height: 100%;
@@ -1556,6 +1634,7 @@ div.col-sm-2.col-6 {
         height: 100%;
         background: url(../images/Who_is_ACN_image/Who_Is_ACN_Desktop/header_image.png) center;
         background-size: cover;
+
     }
     #l-banner-wacntext {
         height: 100%;
@@ -1576,6 +1655,12 @@ div.col-sm-2.col-6 {
         height: 100%;
         background: url(../images/award_desktop.png) center;
         background-size: cover;
+    }
+    .hp-card-text {
+        margin-top: -85px;
+    }
+    .l-banner-homepage-position {
+        margin-top: 65px;
     }
 
     .l-banner-pack-position {
@@ -1599,6 +1684,10 @@ div.col-sm-2.col-6 {
         margin-bottom: 120px;
         margin-top: 100px;
     }
+    .l-banner-position-ss {
+        margin-bottom: 120px;
+        margin-top: 100px;
+    }
     .l-banner-position-CL {
         margin-bottom: 120px;
         margin-top: 100px;
@@ -1608,6 +1697,8 @@ div.col-sm-2.col-6 {
         margin-top: 80px;
     }
     .l-banner-position-wACN {
+       /* margin-bottom: 133px;
+        margin-top: 133px;*/
         margin-bottom: 175px;
         margin-top: 175px;
     }
@@ -1734,11 +1825,25 @@ div.col-sm-2.col-6 {
     }
     
 */
+    .acn-banner-img {
+        height: 265px;
+    }
+    .acn-banner-height {
+        height: 265px;
+    }
+    .hp-card-text {
+        margin-top: -85px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     .d-hidet {
         display: none;
     }
     .d-Dnone {
         display: block;
+    }
+    .d-Dnone1 {
+        display: none;
     }
     .mt--18 {
         margin-left: -18rem;
@@ -1749,8 +1854,14 @@ div.col-sm-2.col-6 {
     .mt-t {
         margin-top: 0px;
     }
+    .mt-11 {
+        margin-top: 11px;
+    }
     .mTt-80 {
         margin-top: 85px;
+    }
+    .heightss {
+        height: 63px;
     }
     .mt-160 {
         margin-top: 60px;
@@ -1761,6 +1872,9 @@ div.col-sm-2.col-6 {
     .simple {
         position: relative;
         left: 30px;
+    }
+    .line-height-60 {
+        line-height: 60px;
     }
     .img-sizes {
         width: 60%;
@@ -1940,8 +2054,9 @@ div.col-sm-2.col-6 {
     }
     #l-banner-ss {
         height: 100%;
-        background: url(../images/successstory_tablet.png) center;
-        background-size: cover;
+        background-color: rgba(0, 40, 85, 0.3);
+        /*background: url(../images/Success_Story_Pics/Header/SS_Header_Tablet.png) center;
+        background-size: cover;*/
     }
     #l-banner-CL {
         height: 100%;
@@ -1978,6 +2093,11 @@ div.col-sm-2.col-6 {
         background: url(../images/award_tablet.png) center;
         background-size: cover;
     }
+    .l-banner-homepage-position {
+        margin-top: 50px;
+        margin-bottom: 24px;
+    }
+
 
     .l-banner-pack-position {
         margin-top: 128px;
@@ -1997,6 +2117,10 @@ div.col-sm-2.col-6 {
     }
     .l-banner-position-event {
         margin-top: 27px;
+        margin-bottom: 128px;
+    }
+    .l-banner-position-ss {
+        margin-top: 30px;
         margin-bottom: 128px;
     }
     .l-banner-position-CL {
@@ -2024,8 +2148,8 @@ div.col-sm-2.col-6 {
         margin-bottom: 75px;
     }
     .l-banner-position-PFK {
-        margin-top: 75px;
-        margin-bottom: 75px;
+        margin-top: 115px;
+        margin-bottom: 115px;
     }
     .l-banner-position-GB {
         margin-top: 75px;
@@ -2143,7 +2267,42 @@ div.col-sm-2.col-6 {
         margin-bottom: 40px;
 
     }
+    
 */
+    .mob-text-center {
+        text-align: center;
+    }
+    .mob-mt-80 {
+        margin-top: 105px;
+        ;
+    }
+    .w-290 {
+        width: 260px;
+    }
+
+    .acn-banner-height {
+        height: 305px;
+    }
+
+    .acn-banner-img {
+        height: 265px;
+    }
+    .hp-card-text {
+        margin-top: -80px;
+
+    }
+    #acn-banner-slide-left {
+        background-color: white;
+    }
+    .swiper-slide {
+        height: 345px;
+    }
+    #mob-position-pagination {
+        bottom: 85px;
+    }
+    #mob-position-pagination1{
+        bottom: 0px;
+    }
     .div_border {
         margin-left: 0px;
         margin-right: 0px;
@@ -2207,6 +2366,9 @@ div.col-sm-2.col-6 {
     .mtt-20 {
         margin-top: 20px;
     }
+    .mt-100{
+        margin-top: 100px;
+    }
     .text-cmobile {
         text-align: center;
     }
@@ -2237,6 +2399,9 @@ div.col-sm-2.col-6 {
     }
     .w-700 {
         width: 100%;
+    }
+    .w-320 {
+        width: 289px;
     }
     .mt-20 {
         margin-top: 20px;
@@ -2275,7 +2440,7 @@ div.col-sm-2.col-6 {
     .mt-330 {
         margin-top: -330px;
     }
-    
+
     .change-width {
         width: 45%;
     }
