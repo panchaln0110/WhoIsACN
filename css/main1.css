@@ -1397,6 +1397,9 @@ div.col-sm-2.col-6 {
     .commit_wisacn > div.container {
         max-width: 730px;
     }
+    .commit_whoisacn > div.container{
+        max-width: 860px;
+    }
     .commit_wisacnpeople > div.container {
         max-width: 1481px;
     }
