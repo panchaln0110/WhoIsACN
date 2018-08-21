@@ -581,6 +581,10 @@ h6 {
     height: 40px;
     width: 200px;
 }
+.img-sectionh{
+    height: 80px;
+    border: 1px solid transparent;
+}
 
 .acn-btn-size-ss {
     width: 340px;
@@ -1254,8 +1258,10 @@ section#support ul > li {
 #co-founder {
     height: 100%;
     background: url(../images/Who_is_ACN_image/Who_Is_ACN_Desktop/co-founder-banner.png);
-    background-size: 100% 100%;
+    background-size: cover;
     color: white;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /*refer-friend*/
@@ -1542,7 +1548,7 @@ div.col-sm-2.col-6 {
         font-size: 16px;
     }
     .mt-160 {
-        margin-top: 106px;
+        margin-top: 80px;
     }
     #l-banner {
         height: 100%;
@@ -2284,6 +2290,9 @@ div.col-sm-2.col-6 {
     .mob-mt-80 {
         margin-top: 105px;
     }
+    #mob-position-pagination2{
+        margin-bottom: 10px!important;
+    }
     .text-centertm{
         text-align: center;
     }
@@ -2292,6 +2301,9 @@ div.col-sm-2.col-6 {
     }
     .w-290 {
         width: 260px;
+    }
+    .img-sectionh{
+       height: auto; 
     }
 
     .acn-banner-height {
